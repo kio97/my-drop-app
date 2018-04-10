@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'MyDrop';
+
+  employees = [
+    { name: 'Fazt', position: 'manager' },
+    { name: 'Fozt', position: 'designer' },
+    { name: 'Fezt', position: 'programmer' }
+  ];
+  model: any = {};
+  addEmployee(): void {}
+  deleteEmployee(): void {}
+  editEmployee(): void {}
+  updateEmployee(): void {}
 }
